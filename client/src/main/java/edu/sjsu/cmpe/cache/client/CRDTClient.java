@@ -160,6 +160,7 @@ Future<HttpResponse<JsonNode>> future1 = Unirest.get(u + "/cache/{key}")
     			
     		
 		}
+    	System.out.println("Value returned: " + keyvalue);
     	
     }
 
